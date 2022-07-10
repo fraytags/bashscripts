@@ -6,9 +6,9 @@
 
 echo '###### fichier dans' $1
 
-ls -la
+ls -la $1
 
 
 
 echo '###### repertoires dans' $1
-ls -R
+ls -R $1
